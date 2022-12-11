@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 1920px;
+    width: 1600px;
     margin: 0 auto;
     font-family: 'itc_avant_garde_gothic_std';
     border: 1px solid red;
@@ -31,7 +31,7 @@ body {
 
 /* Banner */
 .banner {
-    margin: 0 75px;
+    margin: 0 20px;
 }
 
 .bg_banner {
@@ -50,7 +50,7 @@ body {
 
 /* Working team */
 .working_team {
-    margin: 160px 390px 366px 390px;
+    margin: 160px 300px 366px 300px;
 }
 
 .working-smart {
@@ -116,7 +116,7 @@ body {
     color: black;
     font-size: 100px;
     font-weight: 600;
-    margin: 0 0 0 390px;
+    margin: 0 0 0 300px;
 }
 
 .approach-bg {
@@ -158,8 +158,8 @@ body {
 /* Industry */
 .industry {
     margin-top: 490px;
-    margin-left: 390px;
-    margin-right: 300px;
+    margin-left: 300px;
+    margin-right: 50px;
 }
 
 .industry-heading-container img {
@@ -213,4 +213,61 @@ body {
 .details p {
     font-size: 18px;
     font-weight: 300;
+}
+
+/* World Class */
+
+.world-bg {
+    margin-top: 219px;
+    background: url('./asset/16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.world-section-width {
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+.world-section-width h4 {
+    padding-top: 200px;
+}
+
+.world-section-width h2 {
+    font-size: 70px;
+    color: white;
+}
+
+.world-section-width p {
+    color: white;
+}
+
+.world-flex {
+    display: flex;
+    align-items: center;
+}
+
+.world-flex p {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.world-right-img {
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+.world-smart {
+    padding-top: 150px;
+    color: white;
+    font-size: 16px
+}
+
+.world-icon-container {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    color: white;
 }
