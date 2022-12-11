@@ -1,24 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 1920px;
     margin: 0 auto;
+    font-family: 'itc_avant_garde_gothic_std';
+    border: 1px solid red;
 }
 
-header {}
-
+/* Top header */
 .top_header {
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .web_name {
-    font-family: 'itc_avant_garde_gothic_std';
     font-size: 28px;
     font-weight: 700;
 }
 
 .getintouch {
-    font-family: 'itc_avant_garde_gothic_std';
     font-size: 18px;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
@@ -36,10 +41,176 @@ header {}
 }
 
 .banner-heading {
-    font-family: 'itc_avant_garde_gothic_std';
     margin-top: 0px;
     color: white;
     font-size: 100px;
     padding: 100px 0 0 100px;
     font-weight: 600;
+}
+
+/* Working team */
+.working_team {
+    margin: 160px 390px 366px 390px;
+}
+
+.working-smart {
+    color: red;
+    font-size: 16px
+}
+
+.working-heading {
+    font-size: 43px;
+    letter-spacing: -2;
+}
+
+.working-pera {
+    position: relative;
+    height: 169px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* width: 100px; */
+}
+
+.working-oera-content {
+    position: absolute;
+    font-size: 18px;
+    width: 428px;
+    top: 0;
+    right: 0;
+}
+
+.working-member {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.working-member h2 {
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.working-member h2 span {
+    color: red;
+    font-weight: 300;
+}
+
+.working-member h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.working-member h3 span {
+    font-weight: 700;
+}
+
+/* .member-heading{
+    font-size : 30px;
+    color: red;
+} */
+
+/* Approach */
+.approach {
+    color: black;
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0 0 0 390px;
+}
+
+.approach-bg {
+    background: url('./asset/bgapproach.png');
+    background-size: cover;
+    height: 894px;
+}
+
+.approach-smart {
+    padding-top: 150px;
+    color: red;
+    font-size: 16px
+}
+
+.approach-heading {
+    font-size: 33px;
+    letter-spacing: -2;
+    margin-right: 390px;
+    margin-bottom: 138px;
+}
+
+.approach-container {
+    overflow: hidden;
+    display: flex;
+    gap: 44px;
+}
+
+.approach-img {
+    background: white;
+    width: 445px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.approach-img h2 {
+    font-size: 30px;
+    padding: 45px 60px;
+}
+
+/* Industry */
+.industry {
+    margin-top: 490px;
+    margin-left: 390px;
+    margin-right: 300px;
+}
+
+.industry-heading-container img {
+    background-color: white;
+    margin-bottom: -50px;
+}
+
+.industry-heading-container h2 {
+    font-size: 87px;
+    position: absolute;
+    background-color: white;
+}
+
+.industry-mini-headline {
+    margin-top: 150px;
+}
+
+.industry-mini-headline p {
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.industry-details-container {
+    margin-top: 116px;
+    border-left: 1px solid red;
+    padding-left: 55px;
+}
+
+.single-all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 188px;
+}
+
+.single-detail {
+    display: flex;
+    gap: 25px;
+}
+
+.details-no {
+    color: #F0E3D8;
+}
+
+.details h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.details p {
+    font-size: 18px;
+    font-weight: 300;
 }
