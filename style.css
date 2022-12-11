@@ -7,7 +7,6 @@ body {
     width: 1600px;
     margin: 0 auto;
     font-family: 'itc_avant_garde_gothic_std';
-    border: 1px solid red;
 }
 
 /* Top header */
@@ -21,6 +20,11 @@ body {
 .web_name {
     font-size: 28px;
     font-weight: 700;
+}
+
+.get-anchore {
+    text-decoration: none;
+    color: black;
 }
 
 .getintouch {
@@ -66,9 +70,6 @@ body {
 .working-pera {
     position: relative;
     height: 169px;
-    /* display: flex;
-    justify-content: space-between; */
-    /* width: 100px; */
 }
 
 .working-oera-content {
@@ -270,4 +271,377 @@ body {
     align-items: center;
     gap: 90px;
     color: white;
+}
+
+/* partner */
+.partner-container {
+    margin-bottom: 180px;
+}
+
+.partner {
+    display: flex;
+    justify-content: center;
+}
+
+.partner-smart {
+    text-align: center;
+    padding-top: 150px;
+    color: red;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.partner-img {
+    margin-bottom: 20px;
+}
+
+.partner-img img {
+    margin-right: 100px;
+}
+
+.partner-img img:last-child {
+    margin-right: 0;
+}
+
+/* Get in touch */
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-bg {
+    background-color: #0E3466;
+    padding-left: 150px;
+    height: 990px;
+}
+
+.form-bg h2 {
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    padding-top: 180px;
+}
+
+.form-border {
+    border-bottom: 3px solid white;
+    border-width: 5px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.inline {
+    max-width: 400px;
+}
+
+.input-icons img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.message-icon {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 25px;
+}
+
+.message-input {
+    width: 100%;
+    padding-bottom: 135px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-btn {
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+    padding: 20px 60px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* get in touch right section */
+.get-in-touch-right {
+    display: flex;
+    padding: 146px 20px 146px 0px;
+}
+
+.under-right-get-in-touch {
+    margin-left: -80px;
+    background-color: white;
+    padding: 40px;
+    width: 350px;
+}
+
+.under-right-get-in-touch div {
+    border-bottom: 2px solid gray;
+}
+
+.under-right-get-in-touch div:last-child {
+    border-bottom: 0px;
+}
+
+.under-right-get-in-touch h6 {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.under-right-get-in-touch p {
+    margin-bottom: 40px;
+    color: #828282;
+    line-height: 25px;
+}
+
+/* Footer */
+footer {
+    padding: 100px 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 70px;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 65px;
+}
+
+footer ul li {
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+footer div:nth-child(3) {
+    margin-top: 60px;
+}
+
+footer div:last-child {
+    margin-top: 60px;
+    text-align: right;
+}
+
+footer img {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+footer h6 {
+    text-align: right;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/* Responsive  */
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+
+    .banner {
+        margin: 0 0;
+    }
+
+    .bg_banner {
+        height: 200px;
+    }
+
+    .banner-heading {
+        font-size: 30px;
+        padding: 50px 0 0 20px;
+    }
+
+    .working_team {
+        margin: 50px 0 0 0;
+    }
+
+    .working-heading {
+        font-size: 20px;
+    }
+
+    .working-oera-content {
+        font-size: 15px;
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .working-member {
+        display: block;
+    }
+
+    .approach {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .approach-bg {
+        height: auto;
+    }
+
+    .approach-heading {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .approach-container {
+        display: block;
+    }
+
+    .approach-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .approach-img img {
+        width: 100%;
+    }
+
+    /* Industry */
+    .industry {
+        margin-top: 40px;
+        margin: 0;
+    }
+
+    .industry-heading-container img {
+        width: 100%;
+        margin-bottom: -30px;
+    }
+
+    .industry-heading-container h2 {
+        font-size: 42px;
+    }
+
+    .industry-mini-headline p {
+        margin-bottom: 20px;
+    }
+
+    .industry-details-container {
+        margin-top: 20px;
+        margin: 0;
+        padding-left: 5px;
+    }
+
+    .single-all-container {
+        display: block;
+    }
+
+    .single-detail {
+        display: block;
+    }
+
+    /* World Class */
+    .world-bg {
+        margin-top: 30px;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    .world-section-width {
+        margin: 0;
+    }
+
+    .world-section-width h4 {
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .world-section-width h2 {
+        font-size: 40px;
+    }
+
+    .world-flex {
+        display: block;
+    }
+
+    .world-right-img {
+        display: none;
+    }
+
+    .world-icon-container {
+        display: block;
+        margin: 50px 50px;
+    }
+
+    /* partner */
+    .partner-img img {
+        margin: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* Get in touch */
+    .form-container {
+        display: block;
+    }
+
+    .form-bg {
+        padding: 0;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .form-bg h2 {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .inline {
+        max-width: 250px;
+        margin-left: 10px;
+    }
+
+    /* Get in touch right section */
+    .get-in-touch-right {
+        display: block;
+        padding: 0;
+    }
+
+    .under-right-get-in-touch {
+        margin-left: 0;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .getintouch-img {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        padding: 0;
+        display: block;
+        width: 100%;
+        padding-top: 30px;
+    }
 }
