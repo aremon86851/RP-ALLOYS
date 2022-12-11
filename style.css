@@ -1,0 +1,45 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web_name {
+    font-family: 'itc_avant_garde_gothic_std';
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.getintouch {
+    font-family: 'itc_avant_garde_gothic_std';
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+/* Banner */
+.banner {
+    margin: 0 75px;
+}
+
+.bg_banner {
+    background: url('./asset/6.jpg');
+    height: 900px;
+    background-size: cover;
+}
+
+.banner-heading {
+    font-family: 'itc_avant_garde_gothic_std';
+    margin-top: 0px;
+    color: white;
+    font-size: 100px;
+    padding: 100px 0 0 100px;
+    font-weight: 600;
+}
