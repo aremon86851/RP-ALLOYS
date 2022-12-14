@@ -166,6 +166,7 @@ body {
 .industry-heading-container img {
     background-color: white;
     margin-bottom: -50px;
+    padding-top: 18px;
 }
 
 .industry-heading-container h2 {
@@ -458,7 +459,7 @@ footer img {
 footer h6 {
     text-align: right;
     font-size: 19px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /* Responsive  */
@@ -466,6 +467,7 @@ footer h6 {
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
+        text-align: center;
     }
 
 
@@ -474,7 +476,7 @@ footer h6 {
     }
 
     .bg_banner {
-        height: 200px;
+        height: 300px;
     }
 
     .banner-heading {
@@ -512,6 +514,11 @@ footer h6 {
     .approach-heading {
         font-size: 15px;
         margin: 0;
+    }
+
+    .approach-heading h1 {
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     .approach-container {
@@ -584,6 +591,10 @@ footer h6 {
         display: block;
     }
 
+    .world-flex p {
+        width: 100%;
+    }
+
     .world-right-img {
         display: none;
     }
@@ -593,6 +604,10 @@ footer h6 {
         margin: 50px 50px;
     }
 
+    .world-icon-container div {
+        margin-bottom: 40px;
+    }
+
     /* partner */
     .partner-img img {
         margin: 0;
@@ -600,9 +615,17 @@ footer h6 {
         margin-bottom: 20px;
     }
 
+    .partner-smart {
+        padding-top: 50px;
+    }
+
     /* Get in touch */
     .form-container {
         display: block;
+    }
+
+    .form-border {
+        width: 100%;
     }
 
     .form-bg {
@@ -618,7 +641,7 @@ footer h6 {
 
     .inline {
         max-width: 250px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
 
     /* Get in touch right section */
@@ -629,7 +652,7 @@ footer h6 {
 
     .under-right-get-in-touch {
         margin-left: 0;
-        padding: 5px;
+        padding: 0px;
         width: 100%;
     }
 
@@ -643,5 +666,13 @@ footer h6 {
         display: block;
         width: 100%;
         padding-top: 30px;
+    }
+
+    footer h6 {
+        text-align: center;
+    }
+
+    footer div:last-child {
+        text-align: center;
     }
 }
